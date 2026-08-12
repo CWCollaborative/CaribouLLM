@@ -15,8 +15,8 @@ const darkButtonStyles: MermaidButtonStyles = {
   bg: 'rgba(40, 40, 40, 0.95)',
   bgHover: 'rgba(60, 60, 60, 0.95)',
   border: '1px solid rgba(255, 255, 255, 0.1)',
-  text: '#D1D5DB',
-  textSecondary: '#9CA3AF',
+  text: 'rgb(var(--text-secondary))',
+  textSecondary: 'rgb(var(--text-tertiary))',
   shadow: '0 2px 8px rgba(0, 0, 0, 0.4)',
   divider: 'rgba(255, 255, 255, 0.1)',
 };
@@ -25,8 +25,8 @@ const lightButtonStyles: MermaidButtonStyles = {
   bg: 'rgba(255, 255, 255, 0.95)',
   bgHover: 'rgba(243, 244, 246, 0.95)',
   border: '1px solid rgba(0, 0, 0, 0.1)',
-  text: '#374151',
-  textSecondary: '#6B7280',
+  text: 'rgb(var(--text-primary))',
+  textSecondary: 'rgb(var(--text-secondary))',
   shadow: '0 2px 8px rgba(0, 0, 0, 0.1)',
   divider: 'rgba(0, 0, 0, 0.1)',
 };
@@ -464,7 +464,7 @@ export default App;
 export const getMermaidFiles = (content: string, isDarkMode = true) => {
   const mermaidTheme = isDarkMode ? 'dark' : 'neutral';
   const btnStyles = getButtonStyles(isDarkMode);
-  const bgColor = isDarkMode ? '#212121' : '#FFFFFF';
+  const bgColor = 'rgb(var(--surface-primary))';
   const mermaidCSS = `
 body {
   background-color: ${bgColor};

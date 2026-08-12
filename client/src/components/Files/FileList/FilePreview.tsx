@@ -84,7 +84,7 @@ export default function FilePreview() {
             &nbsp; Status
           </span>
           <div className="w-1/2 sm:w-3/4 md:w-3/5">
-            <span className="flex w-20 flex-row items-center justify-evenly rounded-full bg-[#f2f8ec] p-1 text-[#91c561]">
+            <span className="flex w-20 flex-row items-center justify-evenly rounded-full bg-status-success-subtle p-1 text-status-success">
               <CheckMark className="m-0 p-0" />
               <div>{file.object}</div>
             </span>
@@ -133,7 +133,7 @@ export default function FilePreview() {
                 <div className="flex w-3/5 flex-row md:w-1/2 xl:w-1/3">
                   <div className="content-center text-nowrap">{vectors.created_at.toString()}</div>
                   <Button
-                    className="m-0 ml-3 h-full bg-transparent p-0 text-[#666666] hover:bg-slate-200"
+                    className="m-0 ml-3 h-full bg-transparent p-0 text-text-secondary hover:bg-slate-200"
                     onClick={() => {
                       console.log('Remove from vector store');
                     }}
@@ -161,7 +161,7 @@ export default function FilePreview() {
                 <div className="flex w-3/5 flex-row md:w-1/2 xl:w-1/3">
                   <div className="content-center text-nowrap">{thread.createdAt}</div>
                   <Button
-                    className="m-0 ml-3 h-full bg-transparent p-0 text-[#666666] hover:bg-slate-200"
+                    className="m-0 ml-3 h-full bg-transparent p-0 text-text-secondary hover:bg-slate-200"
                     onClick={() => {
                       console.log('Remove from thread');
                     }}

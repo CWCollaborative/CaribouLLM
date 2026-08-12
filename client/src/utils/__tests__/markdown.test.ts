@@ -270,7 +270,7 @@ describe('markdown artifacts', () => {
 
       expect(html).toContain("typeof marked === 'undefined'");
       expect(html).toContain('failed to load');
-      expect(html).toContain('style="color:#e53e3e;padding:1rem"');
+      expect(html).toContain('style="color: rgb(var(--text-destructive));padding:1rem"');
     });
 
     it('should strip raw HTML blocks via renderer override', () => {

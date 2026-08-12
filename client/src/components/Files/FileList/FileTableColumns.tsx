@@ -92,7 +92,7 @@ export const fileTableColumns: ColumnDef<TFileWithVectors>[] = [
               return null;
             }
             return (
-              <span key={index} className="ml-2 mt-2 rounded-full bg-[#f2f8ec] px-2 text-[#91c561]">
+              <span key={index} className="ml-2 mt-2 rounded-full bg-status-success-subtle px-2 text-status-success">
                 {vectorStore.name}
               </span>
             );

@@ -104,7 +104,7 @@ describe('dark destructive text', () => {
 
 describe('light brand text', () => {
   it('uses the contrasting purple foreground in the default theme', () => {
-    expect(defaultTheme['rgb-brand-purple']).toBe('126 34 206');
+    expect(defaultTheme['rgb-brand-purple']).toBe('44 74 71');
   });
 });
 

@@ -302,7 +302,7 @@ export default function useSharePointPicker({
       const iframe = document.createElement('iframe');
       iframe.style.width = '100%';
       iframe.style.height = '100%';
-      iframe.style.background = '#F5F5F5';
+      iframe.style.background = 'rgb(var(--surface-secondary))';
       iframe.style.border = 'none';
       iframe.title = 'SharePoint File Picker';
       iframe.setAttribute(

@@ -33,14 +33,14 @@
       let backgroundColor;
 
       if (theme === 'dark') {
-        backgroundColor = '#2c4a47';
+        backgroundColor = 'rgb(var(--surface-primary))';
       } else if (theme === 'light') {
-        backgroundColor = '#fff9ea';
+        backgroundColor = 'rgb(var(--presentation))';
       } else if (theme === 'system') {
         const prefersDarkScheme = window.matchMedia('(prefers-color-scheme: dark)').matches;
-        backgroundColor = prefersDarkScheme ? '#2c4a47' : '#fff9ea';
+        backgroundColor = prefersDarkScheme ? 'rgb(var(--surface-primary))' : 'rgb(var(--presentation))';
       } else {
-        backgroundColor = '#fff9ea';
+        backgroundColor = 'rgb(var(--presentation))';
       }
 
       loadingContainerStyle.innerHTML = `

@@ -14,11 +14,11 @@ export default function FilesSectionSelector() {
     selectedPage = '/files';
   }
 
-  const darkButton = { backgroundColor: 'black', color: 'white' };
-  const lightButton = { backgroundColor: '#f9f9f9', color: 'black' };
+  const darkButton = { backgroundColor: 'rgb(var(--surface-primary))', color: 'rgb(var(--text-inverted))' };
+  const lightButton = { backgroundColor: 'rgb(var(--surface-secondary))', color: 'rgb(var(--text-primary))' };
 
   return (
-    <div className="flex h-12 w-52 flex-row justify-center rounded border bg-white p-1">
+    <div className="flex h-12 w-52 flex-row justify-center rounded border bg-surface-fixed p-1">
       <div className="flex w-2/3 items-center pr-1">
         <Button
           className="w-full rounded rounded-lg border"

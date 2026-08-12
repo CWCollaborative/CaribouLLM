@@ -161,9 +161,9 @@ function wrapAsDocument(bodyHtml: string, extraHeadHtml = ''): string {
 <style>
 :root {
   color-scheme: light dark;
-  --bg: #ffffff;
-  --fg: #1f2937;
-  --muted: #6b7280;
+  --bg: #fff9ea;
+  --fg: 33 33 33;
+  --muted: 107 114 128;
   --border: rgba(128, 128, 128, 0.25);
   --row-alt: rgba(128, 128, 128, 0.04);
   --row-hover: rgba(59, 130, 246, 0.08);
@@ -173,16 +173,16 @@ function wrapAsDocument(bodyHtml: string, extraHeadHtml = ''): string {
   --link: #2563eb;
 }
 @media (prefers-color-scheme: dark) {
-  :root {
-    --bg: #1a1a2e;
-    --fg: #e5e7eb;
-    --muted: #9ca3af;
+    :root {
+    --bg: #402b22;
+    --fg: 236 236 236;
+    --muted: 156 163 175;
     --border: rgba(128, 128, 128, 0.35);
     --row-alt: rgba(255, 255, 255, 0.03);
     --row-hover: rgba(59, 130, 246, 0.12);
     --header-bg: rgba(31, 41, 55, 0.95);
     --tab-active-bg: rgba(55, 65, 81, 0.95);
-    --link: #60a5fa;
+    --link: #2c4a47;
   }
 }
 * { box-sizing: border-box; }

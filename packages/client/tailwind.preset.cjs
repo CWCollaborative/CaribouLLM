@@ -3,7 +3,7 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        'theme-ui': ['var(--theme-font-family, Inter, sans-serif)'],
+        'theme-ui': ['var(--theme-font-family, Commissioner Variable, Inter, sans-serif)'],
       },
       height: {
         'theme-control': 'var(--theme-control-height, 2.25rem)',

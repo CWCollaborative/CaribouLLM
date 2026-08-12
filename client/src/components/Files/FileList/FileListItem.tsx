@@ -21,7 +21,7 @@ export default function FileListItem({ file, deleteFile, width = '400px' }: File
       </div>
       <div className="flex w-1/6 justify-around">
         <Button
-          className="my-0 ml-3 bg-transparent p-0 text-[#666666] hover:bg-slate-200"
+          className="my-0 ml-3 bg-transparent p-0 text-text-secondary hover:bg-slate-200"
           onClick={() => deleteFile(file._id)}
         >
           <TrashIcon className="m-0 p-0" />

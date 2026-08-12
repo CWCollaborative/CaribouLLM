@@ -45,7 +45,7 @@ describe('mermaid config', () => {
     it('produces neutral theme files when isDarkMode is false', () => {
       const files = getMermaidFiles(content, false);
       expect(files['/components/ui/MermaidDiagram.tsx']).toContain('theme: "neutral"');
-      expect(files['mermaid.css']).toContain('#FFFFFF');
+      expect(files['mermaid.css']).toContain('rgb(255, 249, 234)');
     });
 
     it('defaults to dark mode when isDarkMode is omitted', () => {

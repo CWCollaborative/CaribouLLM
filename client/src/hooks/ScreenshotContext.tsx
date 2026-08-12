@@ -57,7 +57,7 @@ export const useScreenshot = () => {
       );
     }
 
-    const backgroundColor = isDark(theme) ? '#171717' : 'white';
+    const backgroundColor = 'rgb(var(--surface-primary))';
     const canvas = await toCanvas(node, {
       backgroundColor,
       pixelRatio,

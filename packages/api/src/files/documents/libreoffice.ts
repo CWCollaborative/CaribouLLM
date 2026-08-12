@@ -387,11 +387,11 @@ export function buildPdfEmbedDocument(pdfBase64: string): string {
 <meta http-equiv="Content-Security-Policy" content="${csp}">
 <title>Preview</title>
 <style>
-:root { color-scheme: light dark; --bg: #ffffff; --fg: #1f2937; --muted: #6b7280; }
-@media (prefers-color-scheme: dark) { :root { --bg: #1a1a2e; --fg: #e5e7eb; --muted: #9ca3af; } }
+  :root { color-scheme: light dark; --bg: #fff9ea; --fg: #212121; --muted: #6b7280; }
+  @media (prefers-color-scheme: dark) { :root { --bg: #402b22; --fg: #e5e7eb; --muted: #9ca3af; } }
 html, body { margin: 0; padding: 0; min-height: 100vh; background: var(--bg); color: var(--fg); font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; }
 #lc-render { padding: 16px; box-sizing: border-box; display: flex; flex-direction: column; align-items: center; gap: 16px; }
-#lc-render canvas { max-width: 100%; height: auto; box-shadow: 0 2px 8px rgba(0, 0, 0, 0.18); border-radius: 4px; background: #ffffff; }
+  #lc-render canvas { max-width: 100%; height: auto; box-shadow: 0 2px 8px rgba(0, 0, 0, 0.18); border-radius: 4px; background: rgb(var(--surface-primary)); }
 #lc-loading { padding: 24px; color: var(--muted); font-size: 14px; text-align: center; }
 #lc-fallback { display: none; padding: 24px; font-size: 14px; line-height: 1.5; color: var(--muted); text-align: center; }
 #lc-fallback.visible { display: block; }

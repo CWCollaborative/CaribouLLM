@@ -32,12 +32,12 @@ const markdownCSS = `
   font-size: 16px;
   line-height: 1.5;
   word-wrap: break-word;
-  color: #24292f;
-  background-color: #ffffff;
+  color: rgb(var(--text-primary));
+  background-color: rgb(var(--surface-primary));
 }
 
 .markdown-body h1, .markdown-body h2 {
-  border-bottom: 1px solid #d0d7de;
+  border-bottom: 1px solid rgb(var(--border-medium));
   margin: 0.6em 0;
 }
 
@@ -93,8 +93,8 @@ const markdownCSS = `
   margin: 0;
   font-size: 85%;
   border-radius: 6px;
-  background-color: rgba(175, 184, 193, 0.2);
-  color: #24292f;
+  background-color: rgb(var(--border-medium) / 0.12);
+  color: rgb(var(--text-primary));
   font-family: ui-monospace, monospace;
   white-space: pre-wrap;
 }
@@ -107,8 +107,8 @@ const markdownCSS = `
   border-radius: 6px;
   margin-top: 0;
   margin-bottom: 16px;
-  background-color: #f6f8fa;
-  color: #24292f;
+  background-color: rgb(var(--surface-secondary));
+  color: rgb(var(--text-primary));
 }
 
 .markdown-body pre code {
@@ -124,7 +124,7 @@ const markdownCSS = `
 
 .markdown-body a {
   text-decoration: none;
-  color: #0969da;
+  color: rgb(var(--link));
 }
 
 .markdown-body a:hover {
@@ -141,19 +141,19 @@ const markdownCSS = `
 }
 
 .markdown-body table thead {
-  background-color: #f6f8fa;
+  background-color: rgb(var(--surface-secondary));
 }
 
 .markdown-body table th, .markdown-body table td {
   padding: 6px 13px;
-  border: 1px solid #d0d7de;
+  border: 1px solid rgb(var(--border-medium));
 }
 
 .markdown-body blockquote {
   padding: 0 1em;
-  border-left: 0.25em solid #d0d7de;
+  border-left: 0.25em solid rgb(var(--border-medium));
   margin: 0 0 16px 0;
-  color: #57606a;
+  color: rgb(var(--text-secondary));
 }
 
 .markdown-body hr {
@@ -161,7 +161,7 @@ const markdownCSS = `
   padding: 0;
   margin: 24px 0;
   border: 0;
-  background-color: #d0d7de;
+  background-color: rgb(var(--border-medium));
 }
 
 .markdown-body img {
@@ -172,43 +172,43 @@ const markdownCSS = `
 /* Dark theme */
 @media (prefers-color-scheme: dark) {
   .markdown-body {
-    color: #c9d1d9;
-    background-color: #0d1117;
+    color: rgb(var(--text-inverted));
+    background-color: rgb(var(--surface-primary));
   }
 
   .markdown-body h1, .markdown-body h2 {
-    border-bottom-color: #21262d;
+    border-bottom-color: rgb(var(--border-medium));
   }
 
   .markdown-body code {
-    background-color: rgba(110, 118, 129, 0.4);
-    color: #c9d1d9;
+    background-color: rgb(var(--border-medium) / 0.4);
+    color: rgb(var(--text-inverted));
   }
 
   .markdown-body pre {
-    background-color: #161b22;
-    color: #c9d1d9;
+    background-color: rgb(var(--surface-primary-alt));
+    color: rgb(var(--text-inverted));
   }
 
   .markdown-body a {
-    color: #58a6ff;
+    color: rgb(var(--link));
   }
 
   .markdown-body table thead {
-    background-color: #161b22;
+    background-color: rgb(var(--surface-primary-alt));
   }
 
   .markdown-body table th, .markdown-body table td {
-    border-color: #30363d;
+    border-color: rgb(var(--border-medium));
   }
 
   .markdown-body blockquote {
-    border-left-color: #3b434b;
-    color: #8b949e;
+    border-left-color: rgb(var(--border-medium));
+    color: rgb(var(--text-secondary));
   }
 
   .markdown-body hr {
-    background-color: #21262d;
+    background-color: rgb(var(--border-medium));
   }
 }
 

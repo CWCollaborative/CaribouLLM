@@ -17,8 +17,8 @@ export const defaultTheme: IThemeRGB = {
   'rgb-link': '37 99 235', // #2563eb (blue-600)
   'rgb-link-hover': '29 78 216', // #1d4ed8 (blue-700)
   'rgb-link-visited': '147 51 234', // #9333ea (purple-600)
-  'rgb-accent-primary': '18 110 107', // #126e6b
-  'rgb-accent-primary-hover': '10 79 83', // #0a4f53
+  'rgb-accent-primary': '214 116 57', // #d67439 (Caribou accent)
+  'rgb-accent-primary-hover': '160 90 41', // #a05a29 (Caribou accent hover)
 
   // Ring colors
   'rgb-ring-primary': '89 89 89', // #595959 (gray-500)
@@ -34,7 +34,7 @@ export const defaultTheme: IThemeRGB = {
   'rgb-surface-hover': '227 227 227', // #e3e3e3 (gray-200)
   'rgb-surface-hover-alt': '205 205 205', // #cdcdcd (gray-300)
   'rgb-surface-composer-hover': '227 227 227', // #e3e3e3 (gray-200)
-  'rgb-surface-primary': '255 255 255', // #fff (white)
+  'rgb-surface-primary': '255 249 234', // #fff9ea (Caribou light background)
   'rgb-surface-primary-alt': '247 247 248', // #f7f7f8 (gray-50)
   'rgb-surface-primary-contrast': '236 236 236', // #ececec (gray-100)
   'rgb-surface-secondary': '247 247 248', // #f7f7f8 (gray-50)
@@ -72,8 +72,8 @@ export const defaultTheme: IThemeRGB = {
   'rgb-status-info-subtle': '239 246 255', // #eff6ff (blue-50)
   'rgb-status-info-border': '147 197 253', // #93c5fd (blue-300)
   'rgb-status-info-strong': '89 89 89', // #595959 (gray-500)
-  'rgb-status-warning': '180 83 9', // #b45309 (amber-700)
-  'rgb-status-warning-subtle': '255 251 235', // #fffbeb (amber-50)
+  'rgb-status-warning': '33 33 33', // #212121 (dark text-primary for light subtle)
+  'rgb-status-warning-subtle': '220 177 140', // #dcb18c (Caribou warning subtle)
   'rgb-status-warning-border': '252 211 77', // #fcd34d (amber-300)
   'rgb-status-warning-strong': '199 82 9', // #c75209
   'rgb-status-error': '185 28 28', // #b91c1c (red-700)
@@ -83,11 +83,11 @@ export const defaultTheme: IThemeRGB = {
   'rgb-status-neutral': '66 66 66', // #424242 (gray-600)
   'rgb-status-neutral-subtle': '236 236 236', // #ececec (gray-100)
   'rgb-status-neutral-border': '205 205 205', // #cdcdcd (gray-300)
-  'rgb-text-on-status': '255 255 255', // #fff (white)
+  'rgb-text-on-status': '33 33 33', // #212121 (text-primary for contrast on light backgrounds)
 
   // Brand colors
-  'rgb-brand-purple': '126 34 206', // #7e22ce (purple-700)
+  'rgb-brand-purple': '44 74 71', // #2c4a47 (Caribou brand)
 
   // Presentation
-  'rgb-presentation': '255 255 255', // #fff (white)
+  'rgb-presentation': '255 249 234', // #fff9ea (Caribou light background)
 };

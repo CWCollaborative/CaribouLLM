@@ -16,7 +16,7 @@ module.exports = {
   presets: [libreChatTailwindPreset],
   theme: {
     fontFamily: {
-      sans: ['Inter', 'sans-serif'],
+      sans: ['Commissioner Variable', 'Inter', 'sans-serif'],
       mono: ['Roboto Mono', 'monospace'],
     },
     // fontFamily: {

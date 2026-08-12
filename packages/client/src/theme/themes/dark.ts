@@ -17,8 +17,8 @@ export const darkTheme: IThemeRGB = {
   'rgb-link': '96 165 250', // #60a5fa (blue-400)
   'rgb-link-hover': '147 197 253', // #93c5fd (blue-300)
   'rgb-link-visited': '192 132 252', // #c084fc (purple-400)
-  'rgb-accent-primary': '65 167 157', // #41a79d
-  'rgb-accent-primary-hover': '109 200 185', // #6dc8b9
+  'rgb-accent-primary': '214 116 57', // #d67439 (Caribou accent)
+  'rgb-accent-primary-hover': '160 90 41', // #a05a29 (Caribou accent hover)
 
   // Ring colors (not defined in dark mode, using default)
   'rgb-ring-primary': '89 89 89', // #595959 (gray-500)
@@ -34,7 +34,7 @@ export const darkTheme: IThemeRGB = {
   'rgb-surface-hover': '57 57 57', // #393939 (gray-650)
   'rgb-surface-hover-alt': '66 66 66', // #424242 (gray-600)
   'rgb-surface-composer-hover': '66 66 66', // #424242 (gray-600)
-  'rgb-surface-primary': '13 13 13', // #0d0d0d (gray-900)
+  'rgb-surface-primary': '64 43 34', // #402b22 (Caribou dark background)
   'rgb-surface-primary-alt': '23 23 23', // #171717 (gray-850)
   'rgb-surface-primary-contrast': '23 23 23', // #171717 (gray-850)
   'rgb-surface-secondary': '33 33 33', // #212121 (gray-800)
@@ -72,22 +72,23 @@ export const darkTheme: IThemeRGB = {
   'rgb-status-info-subtle': '23 37 84', // #172554 (blue-950)
   'rgb-status-info-border': '30 64 175', // #1e40af (blue-800)
   'rgb-status-info-strong': '66 66 66', // #424242 (gray-600)
-  'rgb-status-warning': '252 211 77', // #fcd34d (amber-300)
-  'rgb-status-warning-subtle': '69 26 3', // #451a03 (amber-950)
+  'rgb-status-warning': '255 255 255', // #fff (white text-inverted for dark subtle)
+  'rgb-status-warning-subtle': '90 74 56', // #5a4a38 (dark warm brown subtle)
   'rgb-status-warning-border': '146 64 14', // #92400e (amber-800)
   'rgb-status-warning-strong': '146 64 14', // #92400e (amber-800)
   'rgb-status-error': '252 165 165', // #fca5a5 (red-300)
   'rgb-status-error-subtle': '69 10 10', // #450a0a (red-950)
   'rgb-status-error-border': '153 27 27', // #991b1b (red-800)
-  'rgb-status-error-strong': '153 27 27', // #991b1b (red-800)
+  'rgb-status-error-strong': '248 113 113', // #f87171 (red-400)
   'rgb-status-neutral': '205 205 205', // #cdcdcd (gray-300)
-  'rgb-status-neutral-subtle': '33 33 33', // #212121 (gray-800)
+  'rgb-status-neutral-subtle': '23 23 23', // #171717 (gray-900)
   'rgb-status-neutral-border': '47 47 47', // #2f2f2f (gray-700)
-  'rgb-text-on-status': '255 255 255', // #fff (white)
+  'rgb-text-on-status': '255 255 255', // #fff (white for dark backgrounds)
 
   // Brand colors
-  'rgb-brand-purple': '171 104 255', // #ab68ff
 
   // Presentation
-  'rgb-presentation': '33 33 33', // #212121 (gray-800)
+  'rgb-brand-purple': '44 74 71', // #2c4a47 (Caribou brand)
+
+  'rgb-presentation': '64 43 34', // #402b22 (Caribou dark background)
 };
