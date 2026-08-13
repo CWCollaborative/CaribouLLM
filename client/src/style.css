@@ -403,7 +403,7 @@ html {
   font-family: Commissioner Variable;
   font-style: normal;
   font-weight: 400;
-  src: url('$fonts/Commissioner-Variable.woff2') format('woff2');
+  src: url('$fonts/Commissioner-Regular.woff2') format('woff2');
 }
 
 @font-face {
@@ -411,7 +411,7 @@ html {
   font-family: Commissioner Variable;
   font-style: italic;
   font-weight: 400;
-  src: url('$fonts/Commissioner-VariableItalic.woff2') format('woff2');
+  src: url('$fonts/Commissioner-Italic.woff2') format('woff2');
 }
 
 @font-face {
@@ -419,7 +419,7 @@ html {
   font-family: Commissioner Variable;
   font-style: normal;
   font-weight: 500;
-  src: url('$fonts/Commissioner-Variable.woff2') format('woff2');
+  src: url('$fonts/Commissioner-Regular.woff2') format('woff2');
 }
 
 @font-face {
@@ -427,7 +427,7 @@ html {
   font-family: Commissioner Variable;
   font-style: italic;
   font-weight: 500;
-  src: url('$fonts/Commissioner-VariableItalic.woff2') format('woff2');
+  src: url('$fonts/Commissioner-Italic.woff2') format('woff2');
 }
 
 @font-face {
@@ -435,7 +435,7 @@ html {
   font-family: Commissioner Variable;
   font-style: normal;
   font-weight: 600;
-  src: url('$fonts/Commissioner-Variable.woff2') format('woff2');
+  src: url('$fonts/Commissioner-Regular.woff2') format('woff2');
 }
 
 @font-face {
@@ -443,7 +443,7 @@ html {
   font-family: Commissioner Variable;
   font-style: italic;
   font-weight: 600;
-  src: url('$fonts/Commissioner-VariableItalic.woff2') format('woff2');
+  src: url('$fonts/Commissioner-Italic.woff2') format('woff2');
 }
 
 @font-face {
@@ -928,6 +928,7 @@ pre {
   --tw-prose-invert-pre-code: rgb(var(--text-inverted));
   --tw-prose-invert-th-borders: rgb(var(--text-secondary));
   --tw-prose-invert-td-borders: rgb(var(--text-secondary));
+}
 .prose :where(video):not(:where([class~='not-prose'] *)) {
   margin-bottom: 2em;
   margin-top: 2em;
@@ -1904,14 +1905,14 @@ html {
 .webkit-dark-styles,
 .webkit-dark-styles:focus {
   background-clip: content-box;
-  -webkit-box-shadow: 0 0 0 50vh #fff inset;
+  -webkit-box-shadow: 0 0 0 50vh rgb(var(--surface-primary)) inset;
 }
 
 .dark .webkit-dark-styles,
 .dark .webkit-dark-styles:focus {
   -webkit-text-fill-color: rgb(var(--text-inverted));
   background-clip: content-box;
-  -webkit-box-shadow: 0 0 0 50vh #0d0d0d inset;
+  -webkit-box-shadow: 0 0 0 50vh rgb(var(--surface-primary)) inset;
 }
 
 /* Ordered Listing */
