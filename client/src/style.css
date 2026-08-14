@@ -237,7 +237,7 @@ html {
 }
 .dark {
   --brand-purple: 44 74 71; /* #2c4a47 */
-  --presentation: 64 43 34; /* #402b22 (dark background) */
+  --presentation: 17 11 9; /* #110B09 (dark background) */
   --text-primary: var(--gray-100);
   --text-secondary: var(--gray-300);
   --text-secondary-alt: var(--gray-400);
@@ -257,7 +257,7 @@ html {
   --surface-hover: var(--gray-650);
   --surface-hover-alt: var(--gray-600);
   --surface-composer-hover: var(--gray-600);
-  --surface-primary: 64 43 34; /* #402b22 */
+  --surface-primary: 17 11 9; /* #110B09 */
   --surface-primary-alt: var(--gray-850);
   --surface-primary-contrast: var(--gray-850);
   --surface-secondary: var(--gray-800);

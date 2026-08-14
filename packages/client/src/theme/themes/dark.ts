@@ -34,7 +34,7 @@ export const darkTheme: IThemeRGB = {
   'rgb-surface-hover': '57 57 57', // #393939 (gray-650)
   'rgb-surface-hover-alt': '66 66 66', // #424242 (gray-600)
   'rgb-surface-composer-hover': '66 66 66', // #424242 (gray-600)
-  'rgb-surface-primary': '64 43 34', // #402b22 (Caribou dark background)
+  'rgb-surface-primary': '17 11 9', // #110B09 (Caribou dark background)
   'rgb-surface-primary-alt': '23 23 23', // #171717 (gray-850)
   'rgb-surface-primary-contrast': '23 23 23', // #171717 (gray-850)
   'rgb-surface-secondary': '33 33 33', // #212121 (gray-800)
@@ -90,5 +90,5 @@ export const darkTheme: IThemeRGB = {
   // Presentation
   'rgb-brand-purple': '44 74 71', // #2c4a47 (Caribou brand)
 
-  'rgb-presentation': '64 43 34', // #402b22 (Caribou dark background)
+  'rgb-presentation': '17 11 9', // #110B09 (Caribou dark background)
 };

@@ -174,7 +174,7 @@ function wrapAsDocument(bodyHtml: string, extraHeadHtml = ''): string {
 }
 @media (prefers-color-scheme: dark) {
     :root {
-    --bg: #402b22;
+    --bg: #110B09;
     --fg: 236 236 236;
     --muted: 156 163 175;
     --border: rgba(128, 128, 128, 0.35);
